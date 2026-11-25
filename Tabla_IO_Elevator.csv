@@ -1,0 +1,64 @@
+﻿Tipo;Etiqueta Factory I/O;Modbus;Direccion CODESYS;Variable;Estado
+Sensor;At 1;Coil 0;%IX20.0;xAt1;mapeado
+Sensor;At 2;Coil 1;%IX20.1;xAt2;mapeado
+Sensor;At 3;Coil 2;%IX20.2;xAt3;mapeado
+Sensor;At elevator;Coil 3;%IX20.3;xAtElevator;mapeado
+Sensor;At entry;Coil 4;%IX20.4;xAtEntry;mapeado
+Sensor;At exit;Coil 5;%IX20.5;xAtExit;mapeado
+Sensor;At 0 (low);Coil 6;%IX20.6;xAt0_Low;mapeado
+Sensor;At 0 (high);Coil 7;%IX20.7;xAt0_High;mapeado
+Sensor;At 1 (low);Coil 8;%IX21.0;xAt1_Low;mapeado
+Sensor;At 1 (high);Coil 9;%IX21.1;xAt1_High;mapeado
+Sensor;At 2 (low);Coil 10;%IX21.2;xAt2_Low;mapeado
+Sensor;At 2 (high);Coil 11;%IX21.3;xAt2_High;mapeado
+Sensor;At 3 (low);Coil 12;%IX21.4;xAt3_Low;mapeado
+Sensor;At 3 (high);Coil 13;%IX21.5;xAt3_High;mapeado
+Sensor;Start;Coil 14;%IX21.6;xStart;mapeado
+Sensor;Reset;Coil 15;%IX21.7;xReset;mapeado
+Sensor;Stop;Coil 16;%IX22.0;xStop;mapeado
+Sensor;Emergency stop;Coil 17;%IX22.1;xEmergencyStop;mapeado
+Sensor;Auto;Coil 18;%IX22.2;xAuto;mapeado
+Sensor;FACTORY I/O (Running);Coil 19;%IX22.3;xFIORunning;mapeado
+Sensor;Manual;Coil 20;%IX22.4;xManual;ANADIR
+Sensor;Pusher(Front Limit);Coil 21;%IX22.5;xPusherFrontLimit;ANADIR
+Sensor;Pusher (Back Limit);Coil 22;%IX22.6;xPusherBackLimit;ANADIR
+Sensor;Vision Sensor 1;Coil 23;%IX22.7;xVision1;ANADIR
+Sensor;Vision Sensor 2;Coil 24;%IX23.0;xVision2;ANADIR
+Sensor;Vision Sensor 3;Coil 25;%IX23.1;xVision3;ANADIR
+Sensor;Sensor_Pusher;Coil 26;%IX23.2;xSensorPusher;ANADIR
+Actuador;Conveyor 0;Input 0;%QX20.0;yConveyor0;mapeado
+Actuador;Conveyor 1;Input 1;%QX20.1;yConveyor1;mapeado
+Actuador;Conveyor 2;Input 2;%QX20.2;yConveyor2;mapeado
+Actuador;Conveyor 3;Input 3;%QX20.3;yConveyor3;mapeado
+Actuador;(libre);Input 4;(libre);;libre
+Actuador;Load;Input 5;%QX20.5;yLoad;mapeado
+Actuador;Unload;Input 6;%QX20.6;yUnload;mapeado
+Actuador;Up;Input 7;%QX20.7;yUp;mapeado
+Actuador;Down;Input 8;%QX21.0;yDown;mapeado
+Actuador;Slow;Input 9;%QX21.1;ySlow;mapeado
+Actuador;Warning light;Input 10;%QX21.2;yWarningLight;mapeado
+Actuador;Start light;Input 11;%QX21.3;yStartLight;mapeado
+Actuador;Reset light;Input 12;%QX21.4;yResetLight;mapeado
+Actuador;Stop light;Input 13;%QX21.5;yStopLight;mapeado
+Actuador;Floor 1;Input 14;%QX21.6;yFloor1;mapeado
+Actuador;Floor 2;Input 15;%QX21.7;yFloor2;mapeado
+Actuador;Floor 3;Input 16;%QX22.0;yFloor3;mapeado
+Actuador;Green 1;Input 17;%QX22.1;yGreen1;mapeado
+Actuador;Yellow 1;Input 18;%QX22.2;yYellow1;mapeado
+Actuador;Red 1;Input 19;%QX22.3;yRed1;mapeado
+Actuador;Green 2;Input 20;%QX22.4;yGreen2;mapeado
+Actuador;Yellow 2;Input 21;%QX22.5;yYellow2;mapeado
+Actuador;Red 2;Input 22;%QX22.6;yRed2;mapeado
+Actuador;Green 3;Input 23;%QX22.7;yGreen3;mapeado
+Actuador;Yellow 3;Input 24;%QX23.0;yYellow3;mapeado
+Actuador;Red 3;Input 25;%QX23.1;yRed3;mapeado
+Actuador;Emitter 0;Input 26;%QX23.2;yEmitter0;ANADIR
+Actuador;Emitter 1;Input 27;%QX23.3;yEmitter1;ANADIR
+Actuador;Emitter 2;Input 28;%QX23.4;yEmitter2;ANADIR
+Actuador;Emitter 3;Input 29;%QX23.5;yEmitter3;ANADIR
+Actuador;Pusher;Input 30;%QX23.6;yPusher;ANADIR
+Actuador;Cinta_Salida_GOOD;Input 31;%QX23.7;ySalidaGood;ANADIR
+Actuador;Cinta_Salida_Defetuoso;Input 32;%QX24.0;ySalidaDefective;ANADIR
+Actuador;Remover_GOOD;Input 33;%QX24.1;yRemoverGood;ANADIR
+Actuador;Remover_Defectuosos;Input 34;%QX24.2;yRemoverDefective;ANADIR
+Actuador;Display;Input Reg 0;%QW0;wDisplay;mapeado
