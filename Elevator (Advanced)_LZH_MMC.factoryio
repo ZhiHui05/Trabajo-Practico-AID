@@ -2126,18 +2126,71 @@
       <NumericOutput0 PointIOKey="7acd17eb-cd14-4240-8687-52a748590ce6" />
     </MHJ>
     <ModbusTCPClient>
-      <PointIOCount BitInputCount="26" BitOutputCount="34" FloatInputCount="0" FloatOutputCount="0" IntInputCount="0" IntOutputCount="0" NumericInputCount="0" NumericOutputCount="1" />
+      <PointIOCount BitInputCount="27" BitOutputCount="35" FloatInputCount="0" FloatOutputCount="0" IntInputCount="0" IntOutputCount="0" NumericInputCount="0" NumericOutputCount="1" />
       <PointIOOffset BitInputOffset="0" BitOutputOffset="0" FloatInputOffset="0" FloatOutputOffset="0" IntInputOffset="0" IntOutputOffset="0" NumericInputOffset="0" NumericOutputOffset="0" />
       <BitInput0 PointIOKey="b7ecaed7-1e05-4565-bd63-7efe8233b9ce" />
       <BitInput1 PointIOKey="c857c4a9-5e40-4ba2-8076-d77a570e9566" />
       <BitInput2 PointIOKey="f6bbd996-fab6-4619-8fd2-f8b76aae2849" />
-      <BitOutput0 PointIOKey="8ee0d46c-7368-4fb4-96ed-79d9b6e7d63a" />
-      <BitOutput1 PointIOKey="534fd476-8e7e-4068-911e-096080ccd062" />
-      <BitOutput2 PointIOKey="dc0e3a77-dd47-49cc-ae2f-4ec48df1525d" />
-      <BitOutput3 PointIOKey="43d56341-1db9-4074-9730-35b767471d44" />
-      <BitOutput4 PointIOKey="548d46fa-676c-4b74-a2c8-9a4ec933c183" />
-      <BitOutput5 PointIOKey="550bef69-a9c7-42c4-87f7-5e51d1ec88eb" />
-      <Properties ReadCoils="False" ReadHoldingRegisters="False" ScaleFactor="100" />
+      <BitInput3 PointIOKey="1f633a9b-581e-47fc-8402-3772141981d1" />
+      <BitInput4 PointIOKey="013345f6-406b-4fc9-9a36-de943848aeae" />
+      <BitInput5 PointIOKey="5736da9b-249d-4838-a253-43aa889558aa" />
+      <BitInput6 PointIOKey="a6b1cee7-e124-4aca-a302-8db8c15a2c4d" />
+      <BitInput7 PointIOKey="f7643749-2202-4464-b700-373c2eb0ef39" />
+      <BitInput8 PointIOKey="4f07f60e-2ce0-4e85-8ffa-98b0e8cf4992" />
+      <BitInput9 PointIOKey="9a82941e-b205-4841-bd42-482a538ce965" />
+      <BitInput10 PointIOKey="34819537-1874-4515-a284-5aeeaa1a0246" />
+      <BitInput11 PointIOKey="9be43a1c-ae73-46c1-accc-b3e10068d8fb" />
+      <BitInput12 PointIOKey="c70ee98c-950a-41cb-8749-51da2a837178" />
+      <BitInput13 PointIOKey="12e8d551-9777-4677-8136-5b2752e8b647" />
+      <BitInput14 PointIOKey="6e136157-0308-441c-85d6-805c6f9b2cb7" />
+      <BitInput15 PointIOKey="b80f271d-11e6-446b-84e4-280438389cf0" />
+      <BitInput16 PointIOKey="3fb5af22-2f47-4c3c-ae68-20820eb2e8df" />
+      <BitInput17 PointIOKey="1cc5896d-1c03-4538-b8da-2c0ebca93d25" />
+      <BitInput18 PointIOKey="840a0a8f-b544-4f85-a6d3-04d583286d1d" />
+      <BitInput19 PointIOKey="c3065f25-5de6-401d-87a5-60b15c7fde5c" />
+      <BitInput20 PointIOKey="769ae074-1c99-4a0a-ad81-51b13efe2875" />
+      <BitInput21 PointIOKey="c9d8df43-6c0e-40af-a96b-e1e8b03f86ab" />
+      <BitInput22 PointIOKey="7016b664-7e07-4051-ba06-5e0c3c457589" />
+      <BitInput23 PointIOKey="e765d9f2-207f-4c50-a4ca-5ff07cb7ccd4" />
+      <BitInput24 PointIOKey="5c76f383-9c16-46bd-8c85-1a49b75a79d4" />
+      <BitInput25 PointIOKey="f1794e3e-fbb4-4f92-85e5-7ea7cb7988ae" />
+      <BitInput26 PointIOKey="cd943056-0047-4b77-8684-1f7c4ff1cc8a" />
+      <BitOutput0 PointIOKey="dc0e3a77-dd47-49cc-ae2f-4ec48df1525d" />
+      <BitOutput1 PointIOKey="43d56341-1db9-4074-9730-35b767471d44" />
+      <BitOutput2 PointIOKey="548d46fa-676c-4b74-a2c8-9a4ec933c183" />
+      <BitOutput3 PointIOKey="550bef69-a9c7-42c4-87f7-5e51d1ec88eb" />
+      <BitOutput5 PointIOKey="25cd207c-c97f-4de0-9a22-c5c411d81434" />
+      <BitOutput6 PointIOKey="ba8b2738-959f-4af4-8ac8-0ba0cbeefd82" />
+      <BitOutput7 PointIOKey="183fd5fc-cacb-45b6-9201-5830be42b248" />
+      <BitOutput8 PointIOKey="5d5dd558-c9aa-4a67-a2d8-7a8a827b9c0c" />
+      <BitOutput9 PointIOKey="ec851882-aec7-4c17-82d7-9d2351aa068c" />
+      <BitOutput10 PointIOKey="be03434f-b3f4-4fcb-8ad2-cd6991b3e2c6" />
+      <BitOutput11 PointIOKey="71c77910-26fd-46b6-8a7a-13d86eef64da" />
+      <BitOutput12 PointIOKey="3d36cb46-7990-44a8-97a6-02292b9ba1cb" />
+      <BitOutput13 PointIOKey="6f5900a8-21fa-474d-8bf1-0ba441f4d667" />
+      <BitOutput14 PointIOKey="d3564622-334d-45b7-8637-33489dddb13e" />
+      <BitOutput15 PointIOKey="322b8fc1-fbf2-43ee-8407-a3f18c6bb39e" />
+      <BitOutput16 PointIOKey="2aed171e-05bb-4b8e-90c7-88f23ec9762e" />
+      <BitOutput17 PointIOKey="57d06db9-6cb4-4587-88e4-f3852a19fedf" />
+      <BitOutput18 PointIOKey="56f83214-5b29-4d5f-9c26-0d1105af3252" />
+      <BitOutput19 PointIOKey="1fb89db5-578f-4cad-ab50-edffe0c0d1bf" />
+      <BitOutput20 PointIOKey="4fbfbcb6-06ad-47b3-bc24-eb3aa4940798" />
+      <BitOutput21 PointIOKey="b434c8fa-77bb-43e3-8041-8bf4dbff120a" />
+      <BitOutput22 PointIOKey="039d455a-d790-4ec9-b5f8-334601975062" />
+      <BitOutput23 PointIOKey="100f7e6f-9f7c-4263-a214-4b23b0d3bab2" />
+      <BitOutput24 PointIOKey="91067722-0316-415b-a371-c7574acb1d29" />
+      <BitOutput25 PointIOKey="b32a64e9-bf06-45c3-b214-7e1ee0415eeb" />
+      <BitOutput26 PointIOKey="1e08f6bc-0121-4c2c-b88c-b2fe2b59616d" />
+      <BitOutput27 PointIOKey="64c18202-6d4d-4a5f-b43d-f3bd1b250e95" />
+      <BitOutput28 PointIOKey="5339aaaa-d4f8-4df2-a467-da21741df1e2" />
+      <BitOutput29 PointIOKey="9bbb49da-2b28-43d3-919c-76110645da88" />
+      <BitOutput30 PointIOKey="9b19dac0-8721-4cf6-bc58-b44a120f7b6e" />
+      <BitOutput31 PointIOKey="534fd476-8e7e-4068-911e-096080ccd062" />
+      <BitOutput32 PointIOKey="8ee0d46c-7368-4fb4-96ed-79d9b6e7d63a" />
+      <BitOutput33 PointIOKey="fbe6e317-f7a9-42d2-9142-4d261428fb80" />
+      <BitOutput34 PointIOKey="8d8e9a46-9e12-4786-b1de-0e1266dd0417" />
+      <NumericOutput0 PointIOKey="7acd17eb-cd14-4240-8687-52a748590ce6" />
+      <Properties BoardCount="0" />
     </ModbusTCPClient>
     <ModbusTCPServer>
       <PointIOCount BitInputCount="20" BitOutputCount="26" FloatInputCount="0" FloatOutputCount="0" IntInputCount="0" IntOutputCount="0" NumericInputCount="0" NumericOutputCount="1" />
